@@ -1,0 +1,52 @@
+[0.744s] Invoking command in '/home/vd/launch_ws/py_launch_example': PYTHONPATH=/home/vd/launch_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vd/launch_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_launch_example build --build-base /home/vd/launch_ws/build/py_launch_example/build install --record /home/vd/launch_ws/build/py_launch_example/install.log --single-version-externally-managed install_data
+[0.959s] running egg_info
+[0.960s] creating ../build/py_launch_example/UNKNOWN.egg-info
+[0.961s] writing ../build/py_launch_example/UNKNOWN.egg-info/PKG-INFO
+[0.961s] writing dependency_links to ../build/py_launch_example/UNKNOWN.egg-info/dependency_links.txt
+[0.961s] writing top-level names to ../build/py_launch_example/UNKNOWN.egg-info/top_level.txt
+[0.962s] writing manifest file '../build/py_launch_example/UNKNOWN.egg-info/SOURCES.txt'
+[0.963s] reading manifest file '../build/py_launch_example/UNKNOWN.egg-info/SOURCES.txt'
+[0.963s] adding license file 'LICENSE'
+[0.963s] writing manifest file '../build/py_launch_example/UNKNOWN.egg-info/SOURCES.txt'
+[0.963s] running build
+[0.963s] running install
+[0.964s] running install_data
+[0.964s] creating /home/vd/launch_ws/install/py_launch_example/share/py_launch_example/launch
+[0.964s] copying launch/my_script_launch.py -> /home/vd/launch_ws/install/py_launch_example/share/py_launch_example/launch
+[0.964s] running install_egg_info
+[0.966s] Copying ../build/py_launch_example/UNKNOWN.egg-info to /home/vd/launch_ws/install/py_launch_example/lib/python3.10/site-packages/UNKNOWN-0.0.0-py3.10.egg-info
+[0.966s] running install_scripts
+[0.984s] writing list of installed files to '/home/vd/launch_ws/build/py_launch_example/install.log'
+[0.988s] running egg_info
+[0.989s] creating ../build/py_launch_example/py_launch_example.egg-info
+[0.989s] writing ../build/py_launch_example/py_launch_example.egg-info/PKG-INFO
+[0.989s] writing dependency_links to ../build/py_launch_example/py_launch_example.egg-info/dependency_links.txt
+[0.989s] writing entry points to ../build/py_launch_example/py_launch_example.egg-info/entry_points.txt
+[0.989s] writing requirements to ../build/py_launch_example/py_launch_example.egg-info/requires.txt
+[0.989s] writing top-level names to ../build/py_launch_example/py_launch_example.egg-info/top_level.txt
+[0.989s] writing manifest file '../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[0.992s] reading manifest file '../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[0.992s] adding license file 'LICENSE'
+[0.992s] writing manifest file '../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[0.993s] running build
+[0.993s] running build_py
+[0.993s] creating /home/vd/launch_ws/build/py_launch_example/build
+[0.993s] creating /home/vd/launch_ws/build/py_launch_example/build/lib
+[0.993s] creating /home/vd/launch_ws/build/py_launch_example/build/lib/py_launch_example
+[0.993s] copying py_launch_example/__init__.py -> /home/vd/launch_ws/build/py_launch_example/build/lib/py_launch_example
+[0.993s] running install
+[0.993s] running install_lib
+[0.993s] creating /home/vd/launch_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example
+[0.994s] copying /home/vd/launch_ws/build/py_launch_example/build/lib/py_launch_example/__init__.py -> /home/vd/launch_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example
+[0.994s] byte-compiling /home/vd/launch_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example/__init__.py to __init__.cpython-310.pyc
+[0.995s] running install_data
+[0.995s] creating /home/vd/launch_ws/install/py_launch_example/share/ament_index
+[0.995s] creating /home/vd/launch_ws/install/py_launch_example/share/ament_index/resource_index
+[0.995s] creating /home/vd/launch_ws/install/py_launch_example/share/ament_index/resource_index/packages
+[0.995s] copying resource/py_launch_example -> /home/vd/launch_ws/install/py_launch_example/share/ament_index/resource_index/packages
+[0.995s] copying package.xml -> /home/vd/launch_ws/install/py_launch_example/share/py_launch_example
+[0.995s] running install_egg_info
+[0.996s] Copying ../build/py_launch_example/py_launch_example.egg-info to /home/vd/launch_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info
+[0.996s] running install_scripts
+[0.998s] writing list of installed files to '/home/vd/launch_ws/build/py_launch_example/install.log'
+[1.034s] Invoked command in '/home/vd/launch_ws/py_launch_example' returned '0': PYTHONPATH=/home/vd/launch_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vd/launch_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_launch_example build --build-base /home/vd/launch_ws/build/py_launch_example/build install --record /home/vd/launch_ws/build/py_launch_example/install.log --single-version-externally-managed install_data

@@ -1,0 +1,1 @@
+/home/vd/launch_ws/src/mobile_robot/launch/gazebo_model.launch.py

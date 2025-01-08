@@ -1,0 +1,46 @@
+[0.020s] Invoking command in '/home/vd/launch_ws/build/art_vehicle': /usr/bin/cmake /home/vd/launch_ws/src/ros/art/utexas-art-ros-pkg-read-only/stacks/art_vehicle -DCMAKE_INSTALL_PREFIX=/home/vd/launch_ws/install/art_vehicle
+[0.028s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.028s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.028s]   contain a literal, direct call to the project() command.  Add a line of
+[0.028s]   code such as
+[0.028s] 
+[0.028s]     project(ProjectName)
+[0.028s] 
+[0.028s]   near the top of the file, but after cmake_minimum_required().
+[0.028s] 
+[0.028s]   CMake is pretending there is a "project(Project)" command on the first
+[0.028s]   line.
+[0.028s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.028s] [0m
+[0.170s] -- The C compiler identification is GNU 11.4.0
+[0.314s] -- The CXX compiler identification is GNU 11.4.0
+[0.331s] -- Detecting C compiler ABI info
+[0.429s] -- Detecting C compiler ABI info - done
+[0.448s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.449s] -- Detecting C compile features
+[0.450s] -- Detecting C compile features - done
+[0.458s] -- Detecting CXX compiler ABI info
+[0.581s] -- Detecting CXX compiler ABI info - done
+[0.596s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.596s] -- Detecting CXX compile features
+[0.597s] -- Detecting CXX compile features - done
+[0.600s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.600s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.600s]   CMake.
+[0.600s] 
+[0.600s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.600s]   CMake that the project does not need compatibility with older versions.
+[0.600s] 
+[0.600s] [0m
+[0.600s] [31mCMake Error at CMakeLists.txt:2 (include):
+[0.600s]   include could not find requested file:
+[0.600s] 
+[0.600s]     /core/rosbuild/rosbuild.cmake
+[0.600s] 
+[0.600s] [0m
+[0.601s] [31mCMake Error at CMakeLists.txt:19 (rosbuild_make_distribution):
+[0.601s]   Unknown CMake command "rosbuild_make_distribution".
+[0.601s] 
+[0.601s] [0m
+[0.601s] -- Configuring incomplete, errors occurred!
+[0.601s] See also "/home/vd/launch_ws/build/art_vehicle/CMakeFiles/CMakeOutput.log".

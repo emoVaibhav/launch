@@ -1,0 +1,1 @@
+Invoking command in '/home/vd/launch_ws/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vd/ros2ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/vd/launch_ws/build/mobile_robot -- -j4 -l4

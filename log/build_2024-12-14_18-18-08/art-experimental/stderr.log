@@ -1,0 +1,31 @@
+[33mCMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[31mCMake Error at CMakeLists.txt:2 (include):
+  include could not find requested file:
+
+    /core/rosbuild/rosbuild.cmake
+
+[0m
+[31mCMake Error at CMakeLists.txt:17 (rosbuild_make_distribution):
+  Unknown CMake command "rosbuild_make_distribution".
+
+[0m

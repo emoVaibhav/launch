@@ -1,0 +1,136 @@
+[0.249s] Invoking command in '/home/vd/launch_ws/build/self_driving_car_pkg_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vd/launch_ws/install/py_launch_example:/home/vd/ros2ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/vd/launch_ws/src/ROS2-Self-Driving-Car-AI-using-OpenCV/self_driving_car_pkg_models -DCMAKE_INSTALL_PREFIX=/home/vd/launch_ws/install/self_driving_car_pkg_models
+[0.309s] -- The C compiler identification is GNU 11.4.0
+[0.366s] -- The CXX compiler identification is GNU 11.4.0
+[0.376s] -- Detecting C compiler ABI info
+[0.433s] -- Detecting C compiler ABI info - done
+[0.440s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.440s] -- Detecting C compile features
+[0.440s] -- Detecting C compile features - done
+[0.442s] -- Detecting CXX compiler ABI info
+[0.500s] -- Detecting CXX compiler ABI info - done
+[0.510s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.510s] -- Detecting CXX compile features
+[0.511s] -- Detecting CXX compile features - done
+[0.513s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.681s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.811s] -- Configuring done
+[0.812s] -- Generating done
+[0.813s] -- Build files have been written to: /home/vd/launch_ws/build/self_driving_car_pkg_models
+[0.817s] Invoked command in '/home/vd/launch_ws/build/self_driving_car_pkg_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vd/launch_ws/install/py_launch_example:/home/vd/ros2ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/vd/launch_ws/src/ROS2-Self-Driving-Car-AI-using-OpenCV/self_driving_car_pkg_models -DCMAKE_INSTALL_PREFIX=/home/vd/launch_ws/install/self_driving_car_pkg_models
+[0.818s] Invoking command in '/home/vd/launch_ws/build/self_driving_car_pkg_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vd/launch_ws/install/py_launch_example:/home/vd/ros2ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/vd/launch_ws/build/self_driving_car_pkg_models -- -j4 -l4
+[0.853s] Invoked command in '/home/vd/launch_ws/build/self_driving_car_pkg_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vd/launch_ws/install/py_launch_example:/home/vd/ros2ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/vd/launch_ws/build/self_driving_car_pkg_models -- -j4 -l4
+[0.855s] Invoking command in '/home/vd/launch_ws/build/self_driving_car_pkg_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vd/launch_ws/install/py_launch_example:/home/vd/ros2ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/vd/launch_ws/build/self_driving_car_pkg_models
+[0.861s] -- Install configuration: ""
+[0.861s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models
+[0.861s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/light_yellow
+[0.861s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/light_yellow/model.config
+[0.861s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/light_yellow/model.sdf
+[0.861s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/traffic_stand
+[0.861s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/traffic_stand/meshes
+[0.861s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/traffic_stand/meshes/traffic_stand.dae
+[0.861s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/traffic_stand/model.config
+[0.862s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/traffic_stand/model.sdf
+[0.862s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/light_green
+[0.862s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/light_green/model.config
+[0.862s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/light_green/model.sdf
+[0.862s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_90
+[0.862s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_90/materials
+[0.862s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_90/materials/scripts
+[0.862s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_90/materials/scripts/sign_board_90.material
+[0.862s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_90/materials/textures
+[0.862s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_90/materials/textures/stop.png
+[0.863s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_90/materials/textures/60.png
+[0.863s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_90/materials/textures/turn.png
+[0.863s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_90/materials/textures/90.png
+[0.863s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_90/materials/textures/30.png
+[0.863s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_90/meshes
+[0.863s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_90/meshes/sign_stand.mtl
+[0.863s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_90/meshes/sign_board.mtl
+[0.863s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_90/model.config
+[0.863s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_90/model.sdf
+[0.863s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_30
+[0.863s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_30/materials
+[0.864s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_30/materials/scripts
+[0.864s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_30/materials/scripts/sign_board_30.material
+[0.864s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_30/materials/textures
+[0.864s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_30/materials/textures/30.png
+[0.864s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_30/meshes
+[0.864s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_30/meshes/sign_stand.mtl
+[0.864s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_30/meshes/sign_board.mtl
+[0.864s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_30/model.config
+[0.864s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_30/model.sdf
+[0.865s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/track
+[0.865s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/track/materials
+[0.865s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/track/materials/scripts
+[0.865s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/track/materials/scripts/road.material
+[0.865s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/track/materials/scripts/chowk.material
+[0.865s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/track/materials/textures
+[0.865s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/track/materials/textures/road.png
+[0.865s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/track/materials/textures/chowk.png
+[0.865s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/track/meshes
+[0.865s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/track/meshes/chowk.dae
+[0.865s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/track/meshes/complete_circuit.dae
+[0.865s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/track/model.config
+[0.865s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/track/model.sdf
+[0.866s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/prius_hybrid
+[0.866s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/prius_hybrid/materials
+[0.866s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/prius_hybrid/materials/textures
+[0.866s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/prius_hybrid/materials/textures/Wheels3.png
+[0.866s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/prius_hybrid/materials/textures/Hybrid_Interior.png
+[0.866s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/prius_hybrid/materials/textures/Hybrid.png
+[0.866s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/prius_hybrid/meshes
+[0.866s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/prius_hybrid/meshes/Hybrid.mtl
+[0.866s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/prius_hybrid/model.config
+[0.867s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/prius_hybrid/model.sdf
+[0.867s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_turn
+[0.867s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_turn/materials
+[0.867s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_turn/materials/scripts
+[0.867s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_turn/materials/scripts/sign_board_turn.material
+[0.867s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_turn/materials/textures
+[0.867s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_turn/materials/textures/sign_board_turn.png
+[0.867s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_turn/meshes
+[0.867s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_turn/meshes/sign_stand.mtl
+[0.867s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_turn/meshes/sign_board.mtl
+[0.867s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_turn/model.config
+[0.867s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_turn/model.sdf
+[0.868s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/light_red
+[0.868s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/light_red/model.config
+[0.868s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/light_red/model.sdf
+[0.868s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_60
+[0.868s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_60/materials
+[0.868s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_60/materials/scripts
+[0.868s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_60/materials/scripts/sign_board_60.material
+[0.868s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_60/materials/textures
+[0.868s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_60/materials/textures/60.png
+[0.868s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_60/meshes
+[0.868s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_60/meshes/sign_stand.mtl
+[0.868s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_60/meshes/sign_board.mtl
+[0.868s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_60/model.config
+[0.869s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_60/model.sdf
+[0.869s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_stop
+[0.869s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_stop/materials
+[0.869s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_stop/materials/scripts
+[0.869s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_stop/materials/scripts/sign_board_stop.material
+[0.869s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_stop/materials/textures
+[0.869s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_stop/materials/textures/stop.png
+[0.869s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_stop/meshes
+[0.869s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_stop/meshes/sign_stand.mtl
+[0.869s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_stop/meshes/sign_board.mtl
+[0.869s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_stop/model.config
+[0.869s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/models/sign_board_stop/model.sdf
+[0.870s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/ament_index/resource_index/package_run_dependencies/self_driving_car_pkg_models
+[0.870s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/ament_index/resource_index/parent_prefix_path/self_driving_car_pkg_models
+[0.870s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/environment/ament_prefix_path.sh
+[0.870s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/environment/ament_prefix_path.dsv
+[0.870s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/environment/path.sh
+[0.870s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/environment/path.dsv
+[0.870s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/local_setup.bash
+[0.870s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/local_setup.sh
+[0.871s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/local_setup.zsh
+[0.871s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/local_setup.dsv
+[0.871s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/package.dsv
+[0.871s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/ament_index/resource_index/packages/self_driving_car_pkg_models
+[0.871s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/cmake/self_driving_car_pkg_modelsConfig.cmake
+[0.871s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/cmake/self_driving_car_pkg_modelsConfig-version.cmake
+[0.871s] -- Installing: /home/vd/launch_ws/install/self_driving_car_pkg_models/share/self_driving_car_pkg_models/package.xml
+[0.874s] Invoked command in '/home/vd/launch_ws/build/self_driving_car_pkg_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vd/launch_ws/install/py_launch_example:/home/vd/ros2ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/vd/launch_ws/build/self_driving_car_pkg_models

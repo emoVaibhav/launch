@@ -1,0 +1,1 @@
+Invoking command in '/home/vd/launch_ws/build/art_vehicle': /usr/bin/cmake /home/vd/launch_ws/src/ros/art/utexas-art-ros-pkg-read-only/stacks/art_vehicle -DCMAKE_INSTALL_PREFIX=/home/vd/launch_ws/install/art_vehicle

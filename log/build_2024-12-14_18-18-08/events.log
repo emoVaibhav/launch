@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.000434] (ackermann_teleop) JobQueued: {'identifier': 'ackermann_teleop', 'dependencies': OrderedDict()}
+[0.000461] (art-experimental) JobQueued: {'identifier': 'art-experimental', 'dependencies': OrderedDict()}
+[0.000473] (art_vehicle) JobQueued: {'identifier': 'art_vehicle', 'dependencies': OrderedDict()}
+[0.000483] (mobile_robot) JobQueued: {'identifier': 'mobile_robot', 'dependencies': OrderedDict()}
+[0.000493] (open_street_map) JobQueued: {'identifier': 'open_street_map', 'dependencies': OrderedDict()}
+[0.000502] (py_launch_example) JobQueued: {'identifier': 'py_launch_example', 'dependencies': OrderedDict()}
+[0.000511] (velodyne) JobQueued: {'identifier': 'velodyne', 'dependencies': OrderedDict()}
+[0.000520] (velodyne_utils) JobQueued: {'identifier': 'velodyne_utils', 'dependencies': OrderedDict()}
+[0.000530] (ackermann_teleop) JobStarted: {'identifier': 'ackermann_teleop'}
+[0.004507] (art-experimental) JobStarted: {'identifier': 'art-experimental'}
+[0.007340] (art_vehicle) JobStarted: {'identifier': 'art_vehicle'}
+[0.010145] (mobile_robot) JobStarted: {'identifier': 'mobile_robot'}
+[0.018137] (ackermann_teleop) JobProgress: {'identifier': 'ackermann_teleop', 'progress': 'cmake'}
+[0.018686] (ackermann_teleop) Command: {'cmd': ['/usr/bin/cmake', '/home/vd/launch_ws/src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop', '-DCMAKE_INSTALL_PREFIX=/home/vd/launch_ws/install/ackermann_teleop'], 'cwd': '/home/vd/launch_ws/build/ackermann_teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vd'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vd/ros2ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vd'), ('OLDPWD', '/home/vd/launch_ws/src/ros'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1602'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vd/launch_ws/install:/home/vd/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/vd/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/vd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/VD-PC:@/tmp/.ICE-unix/1426,unix/VD-PC:/tmp/.ICE-unix/1426'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4d4dcf5e_1b4b_4ec7_8592_0ebf8abde578'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C3DDY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vd/launch_ws/install/py_launch_example:/home/vd/ros2ws/install/py_pubsub:/home/vd/ros2ws/install/tutorial_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vd/launch_ws/build/ackermann_teleop'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vd/launch_ws/install/py_launch_example/lib/python3.10/site-packages:/home/vd/ros2ws/install/py_pubsub/lib/python3.10/site-packages:/home/vd/ros2ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vd/ros2ws/install/tutorial_interfaces')]), 'shell': False}
+[0.021784] (art-experimental) JobProgress: {'identifier': 'art-experimental', 'progress': 'cmake'}
+[0.022419] (art-experimental) Command: {'cmd': ['/usr/bin/cmake', '/home/vd/launch_ws/src/ros/art-experimental', '-DCMAKE_INSTALL_PREFIX=/home/vd/launch_ws/install/art-experimental'], 'cwd': '/home/vd/launch_ws/build/art-experimental', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vd'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vd/ros2ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vd'), ('OLDPWD', '/home/vd/launch_ws/src/ros'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1602'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vd/launch_ws/install:/home/vd/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/vd/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/vd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/VD-PC:@/tmp/.ICE-unix/1426,unix/VD-PC:/tmp/.ICE-unix/1426'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4d4dcf5e_1b4b_4ec7_8592_0ebf8abde578'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C3DDY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vd/launch_ws/install/py_launch_example:/home/vd/ros2ws/install/py_pubsub:/home/vd/ros2ws/install/tutorial_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vd/launch_ws/build/art-experimental'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vd/launch_ws/install/py_launch_example/lib/python3.10/site-packages:/home/vd/ros2ws/install/py_pubsub/lib/python3.10/site-packages:/home/vd/ros2ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vd/ros2ws/install/tutorial_interfaces')]), 'shell': False}
+[0.024552] (art_vehicle) JobProgress: {'identifier': 'art_vehicle', 'progress': 'cmake'}
+[0.024590] (art_vehicle) Command: {'cmd': ['/usr/bin/cmake', '/home/vd/launch_ws/src/ros/art/utexas-art-ros-pkg-read-only/stacks/art_vehicle', '-DCMAKE_INSTALL_PREFIX=/home/vd/launch_ws/install/art_vehicle'], 'cwd': '/home/vd/launch_ws/build/art_vehicle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vd'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vd/ros2ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vd'), ('OLDPWD', '/home/vd/launch_ws/src/ros'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1602'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vd/launch_ws/install:/home/vd/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/vd/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/vd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/VD-PC:@/tmp/.ICE-unix/1426,unix/VD-PC:/tmp/.ICE-unix/1426'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4d4dcf5e_1b4b_4ec7_8592_0ebf8abde578'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C3DDY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vd/launch_ws/install/py_launch_example:/home/vd/ros2ws/install/py_pubsub:/home/vd/ros2ws/install/tutorial_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vd/launch_ws/build/art_vehicle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vd/launch_ws/install/py_launch_example/lib/python3.10/site-packages:/home/vd/ros2ws/install/py_pubsub/lib/python3.10/site-packages:/home/vd/ros2ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vd/ros2ws/install/tutorial_interfaces')]), 'shell': False}
+[0.027552] (mobile_robot) JobProgress: {'identifier': 'mobile_robot', 'progress': 'cmake'}
+[0.027592] (mobile_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/vd/launch_ws/mobile_robot', '-DCMAKE_INSTALL_PREFIX=/home/vd/launch_ws/install/mobile_robot'], 'cwd': '/home/vd/launch_ws/build/mobile_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vd'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vd/ros2ws/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vd'), ('OLDPWD', '/home/vd/launch_ws/src/ros'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1602'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vd/launch_ws/install:/home/vd/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/vd/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/vd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/VD-PC:@/tmp/.ICE-unix/1426,unix/VD-PC:/tmp/.ICE-unix/1426'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4d4dcf5e_1b4b_4ec7_8592_0ebf8abde578'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C3DDY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vd/launch_ws/install/py_launch_example:/home/vd/ros2ws/install/py_pubsub:/home/vd/ros2ws/install/tutorial_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vd/launch_ws/build/mobile_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vd/launch_ws/install/py_launch_example/lib/python3.10/site-packages:/home/vd/ros2ws/install/py_pubsub/lib/python3.10/site-packages:/home/vd/ros2ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vd/ros2ws/install/tutorial_interfaces:/home/vd/launch_ws/install/py_launch_example:/home/vd/ros2ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.032325] (ackermann_teleop) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.032519] (ackermann_teleop) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.032997] (ackermann_teleop) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.033136] (ackermann_teleop) StderrLine: {'line': b'  code such as\n'}
+[0.033197] (ackermann_teleop) StderrLine: {'line': b'\n'}
+[0.033664] (ackermann_teleop) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.033726] (ackermann_teleop) StderrLine: {'line': b'\n'}
+[0.033781] (ackermann_teleop) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.033833] (ackermann_teleop) StderrLine: {'line': b'\n'}
+[0.033886] (ackermann_teleop) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.033946] (ackermann_teleop) StderrLine: {'line': b'  line.\n'}
+[0.035016] (ackermann_teleop) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.035109] (ackermann_teleop) StderrLine: {'line': b'\x1b[0m\n'}
+[0.035164] (art_vehicle) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.035237] (art_vehicle) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.035292] (art_vehicle) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.035345] (art_vehicle) StderrLine: {'line': b'  code such as\n'}
+[0.035401] (art_vehicle) StderrLine: {'line': b'\n'}
+[0.035458] (art_vehicle) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.035515] (art_vehicle) StderrLine: {'line': b'\n'}
+[0.035569] (art_vehicle) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.035621] (art_vehicle) StderrLine: {'line': b'\n'}
+[0.035672] (art_vehicle) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.035728] (art_vehicle) StderrLine: {'line': b'  line.\n'}
+[0.035779] (art_vehicle) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.035831] (art_vehicle) StderrLine: {'line': b'\x1b[0m\n'}
+[0.035887] (art-experimental) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.035982] (art-experimental) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.036038] (art-experimental) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.036090] (art-experimental) StderrLine: {'line': b'  code such as\n'}
+[0.036147] (art-experimental) StderrLine: {'line': b'\n'}
+[0.036201] (art-experimental) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.036256] (art-experimental) StderrLine: {'line': b'\n'}
+[0.036312] (art-experimental) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.036367] (art-experimental) StderrLine: {'line': b'\n'}
+[0.036419] (art-experimental) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.036488] (art-experimental) StderrLine: {'line': b'  line.\n'}
+[0.036541] (art-experimental) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.036590] (art-experimental) StderrLine: {'line': b'\x1b[0m\n'}
+[0.099830] (-) TimerEvent: {}
+[0.176554] (ackermann_teleop) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.176769] (art-experimental) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.177667] (art_vehicle) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.184507] (mobile_robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199991] (-) TimerEvent: {}
+[0.301191] (-) TimerEvent: {}
+[0.308698] (art-experimental) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.311922] (mobile_robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.317370] (ackermann_teleop) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.321935] (art_vehicle) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.332088] (mobile_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.334610] (art-experimental) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.338855] (art_vehicle) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.340579] (ackermann_teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.401651] (-) TimerEvent: {}
+[0.426180] (mobile_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.436066] (art_vehicle) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.436297] (ackermann_teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.441466] (art-experimental) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.448071] (mobile_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[0.448437] (mobile_robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.449210] (ackermann_teleop) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[0.449800] (ackermann_teleop) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.449949] (mobile_robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.450698] (ackermann_teleop) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.455040] (art-experimental) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[0.455423] (art-experimental) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.455737] (art-experimental) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.455833] (art_vehicle) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[0.456116] (art_vehicle) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.457174] (art_vehicle) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.458559] (ackermann_teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.459330] (mobile_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.460035] (art-experimental) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.465598] (art_vehicle) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.501763] (-) TimerEvent: {}
+[0.560341] (ackermann_teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.563986] (mobile_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.581567] (ackermann_teleop) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[0.581759] (ackermann_teleop) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.581821] (ackermann_teleop) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.581877] (ackermann_teleop) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.581943] (ackermann_teleop) StdoutLine: {'line': b'See also "/home/vd/launch_ws/build/ackermann_teleop/CMakeFiles/CMakeOutput.log".\n'}
+[0.581996] (mobile_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[0.582132] (ackermann_teleop) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.582195] (ackermann_teleop) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.582244] (ackermann_teleop) StderrLine: {'line': b'  CMake.\n'}
+[0.582294] (ackermann_teleop) StderrLine: {'line': b'\n'}
+[0.582343] (ackermann_teleop) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.582391] (ackermann_teleop) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.582437] (ackermann_teleop) StderrLine: {'line': b'\n'}
+[0.582494] (ackermann_teleop) StderrLine: {'line': b'\x1b[0m\n'}
+[0.582544] (ackermann_teleop) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:2 (include):\n'}
+[0.582595] (ackermann_teleop) StderrLine: {'line': b'  include could not find requested file:\n'}
+[0.582645] (ackermann_teleop) StderrLine: {'line': b'\n'}
+[0.582695] (ackermann_teleop) StderrLine: {'line': b'    /core/rosbuild/rosbuild.cmake\n'}
+[0.582745] (ackermann_teleop) StderrLine: {'line': b'\n'}
+[0.582793] (ackermann_teleop) StderrLine: {'line': b'\x1b[0m\n'}
+[0.582842] (ackermann_teleop) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:17 (rosbuild_make_distribution):\n'}
+[0.582949] (ackermann_teleop) StderrLine: {'line': b'  Unknown CMake command "rosbuild_make_distribution".\n'}
+[0.583014] (ackermann_teleop) StderrLine: {'line': b'\n'}
+[0.583065] (ackermann_teleop) StderrLine: {'line': b'\x1b[0m\n'}
+[0.584069] (mobile_robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.585029] (mobile_robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.585563] (ackermann_teleop) CommandEnded: {'returncode': 1}
+[0.586153] (ackermann_teleop) JobEnded: {'identifier': 'ackermann_teleop', 'rc': 1}
+[0.588201] (art_vehicle) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.590870] (mobile_robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.591861] (art-experimental) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.601956] (-) TimerEvent: {}
+[0.603040] (art_vehicle) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[0.603413] (art_vehicle) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.604056] (art_vehicle) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.606999] (art_vehicle) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.607221] (art_vehicle) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.607282] (art_vehicle) StderrLine: {'line': b'  CMake.\n'}
+[0.607333] (art_vehicle) StderrLine: {'line': b'\n'}
+[0.607392] (art_vehicle) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.607449] (art_vehicle) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.607506] (art_vehicle) StderrLine: {'line': b'\n'}
+[0.607563] (art_vehicle) StderrLine: {'line': b'\x1b[0m\n'}
+[0.607622] (art_vehicle) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:2 (include):\n'}
+[0.607816] (art_vehicle) StderrLine: {'line': b'  include could not find requested file:\n'}
+[0.607878] (art_vehicle) StderrLine: {'line': b'\n'}
+[0.607954] (art_vehicle) StderrLine: {'line': b'    /core/rosbuild/rosbuild.cmake\n'}
+[0.608011] (art_vehicle) StderrLine: {'line': b'\n'}
+[0.608074] (art_vehicle) StderrLine: {'line': b'\x1b[0m\n'}
+[0.608159] (art_vehicle) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (rosbuild_make_distribution):\n'}
+[0.608215] (art_vehicle) StderrLine: {'line': b'  Unknown CMake command "rosbuild_make_distribution".\n'}
+[0.608269] (art_vehicle) StderrLine: {'line': b'\n'}
+[0.608325] (art_vehicle) StderrLine: {'line': b'\x1b[0m\n'}
+[0.608383] (art_vehicle) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.608453] (art_vehicle) StdoutLine: {'line': b'See also "/home/vd/launch_ws/build/art_vehicle/CMakeFiles/CMakeOutput.log".\n'}
+[0.608514] (art-experimental) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[0.608583] (art-experimental) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.608718] (art-experimental) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.609333] (art-experimental) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.609455] (art-experimental) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.609522] (art-experimental) StderrLine: {'line': b'  CMake.\n'}
+[0.609578] (art-experimental) StderrLine: {'line': b'\n'}
+[0.609633] (art-experimental) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.609686] (art-experimental) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.609736] (art-experimental) StderrLine: {'line': b'\n'}
+[0.609783] (art-experimental) StderrLine: {'line': b'\x1b[0m\n'}
+[0.609894] (art-experimental) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:2 (include):\n'}
+[0.609989] (art-experimental) StderrLine: {'line': b'  include could not find requested file:\n'}
+[0.610041] (art-experimental) StderrLine: {'line': b'\n'}
+[0.610087] (art-experimental) StderrLine: {'line': b'    /core/rosbuild/rosbuild.cmake\n'}
+[0.610134] (art-experimental) StderrLine: {'line': b'\n'}
+[0.610179] (art-experimental) StderrLine: {'line': b'\x1b[0m\n'}
+[0.610253] (art-experimental) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:17 (rosbuild_make_distribution):\n'}
+[0.610298] (art-experimental) StderrLine: {'line': b'  Unknown CMake command "rosbuild_make_distribution".\n'}
+[0.610344] (art-experimental) StderrLine: {'line': b'\n'}
+[0.610390] (art-experimental) StderrLine: {'line': b'\x1b[0m\n'}
+[0.610439] (art-experimental) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.610499] (art-experimental) StdoutLine: {'line': b'See also "/home/vd/launch_ws/build/art-experimental/CMakeFiles/CMakeOutput.log".\n'}
+[0.613395] (art-experimental) JobEnded: {'identifier': 'art-experimental', 'rc': 'SIGINT'}
+[0.615464] (art_vehicle) JobEnded: {'identifier': 'art_vehicle', 'rc': 'SIGINT'}
+[0.702026] (-) TimerEvent: {}
+[0.747141] (mobile_robot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.802160] (-) TimerEvent: {}
+[0.835570] (mobile_robot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.902276] (-) TimerEvent: {}
+[0.904067] (mobile_robot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.905196] (mobile_robot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.906543] (mobile_robot) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.908202] (mobile_robot) StdoutLine: {'line': b'-- Generating done\n'}
+[0.909258] (mobile_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/vd/launch_ws/build/mobile_robot\n'}
+[0.912529] (mobile_robot) JobEnded: {'identifier': 'mobile_robot', 'rc': 'SIGINT'}
+[0.922954] (open_street_map) JobSkipped: {'identifier': 'open_street_map'}
+[0.923019] (py_launch_example) JobSkipped: {'identifier': 'py_launch_example'}
+[0.923034] (velodyne) JobSkipped: {'identifier': 'velodyne'}
+[0.923044] (velodyne_utils) JobSkipped: {'identifier': 'velodyne_utils'}
+[0.923055] (-) EventReactorShutdown: {}

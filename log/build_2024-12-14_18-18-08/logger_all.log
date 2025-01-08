@@ -1,0 +1,458 @@
+[0.147s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.147s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7132e9329d20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7132e92e0d30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7132e92e0d30>>, mixin_verb=('build',))
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.344s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vd/launch_ws'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robot) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robot) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robot) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robot) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robot) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robot) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robot) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(mobile_robot) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'mobile_robot' with type 'ros.ament_cmake' and name 'mobile_robot'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(py_launch_example) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(py_launch_example) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(py_launch_example) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(py_launch_example) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(py_launch_example) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(py_launch_example) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(py_launch_example) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(py_launch_example) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(py_launch_example) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'py_launch_example' with type 'ros.ament_python' and name 'py_launch_example'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros) by extension 'ros'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros) by extensions ['cmake', 'python']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros) by extension 'cmake'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros) by extension 'python'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros) by extensions ['python_setup_py']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros) by extension 'python_setup_py'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art) by extension 'ros'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art) by extensions ['cmake', 'python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art) by extension 'cmake'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art) by extension 'python'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art) by extensions ['python_setup_py']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art) by extension 'python_setup_py'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only) by extension 'ros'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only) by extensions ['cmake', 'python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only) by extension 'cmake'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only) by extension 'python'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only) by extensions ['python_setup_py']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only) by extension 'python_setup_py'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/etc) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/etc) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/etc) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/etc) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/etc) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/etc) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/etc) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/etc) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/etc) by extension 'ros'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/etc) by extensions ['cmake', 'python']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/etc) by extension 'cmake'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/etc) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/etc) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/etc) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/images) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/images) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/images) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/images) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/images) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/images) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/images) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/images) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/images) by extension 'ros'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/images) by extensions ['cmake', 'python']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/images) by extension 'cmake'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/images) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/images) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/images) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/rosinstall) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/rosinstall) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/rosinstall) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/rosinstall) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/rosinstall) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/rosinstall) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/rosinstall) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/rosinstall) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/rosinstall) by extension 'ros'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/rosinstall) by extensions ['cmake', 'python']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/rosinstall) by extension 'cmake'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/rosinstall) by extension 'python'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/rosinstall) by extensions ['python_setup_py']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/rosinstall) by extension 'python_setup_py'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks) by extension 'ros'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks) by extensions ['cmake', 'python']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks) by extension 'cmake'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks) by extension 'python'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks) by extensions ['python_setup_py']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks) by extension 'python_setup_py'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_msgs) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_msgs) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_msgs) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_msgs) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_msgs) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_msgs) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_msgs) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_msgs) by extension 'ros'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_msgs) ignored
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop) by extension 'ros'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop) by extensions ['cmake', 'python']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop) by extension 'cmake'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop) by extension 'python'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop' with type 'cmake' and name 'ackermann_teleop'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/art_vehicle) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/art_vehicle) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/art_vehicle) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/art_vehicle) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/art_vehicle) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/art_vehicle) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/art_vehicle) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/art_vehicle) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/art_vehicle) by extension 'ros'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/art_vehicle) by extensions ['cmake', 'python']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/art_vehicle) by extension 'cmake'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/art_vehicle) by extension 'python'
+[0.364s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros/art/utexas-art-ros-pkg-read-only/stacks/art_vehicle' with type 'cmake' and name 'art_vehicle'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/open_street_map) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/open_street_map) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/open_street_map) by extension 'ignore_ament_install'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/open_street_map) by extensions ['colcon_pkg']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/open_street_map) by extension 'colcon_pkg'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/open_street_map) by extensions ['colcon_meta']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/open_street_map) by extension 'colcon_meta'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/open_street_map) by extensions ['ros']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/open_street_map) by extension 'ros'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/open_street_map) by extensions ['cmake', 'python']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/open_street_map) by extension 'cmake'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/open_street_map) by extension 'python'
+[0.365s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros/art/utexas-art-ros-pkg-read-only/stacks/open_street_map' with type 'cmake' and name 'open_street_map'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne) by extension 'ros'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne) by extensions ['cmake', 'python']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne) by extension 'cmake'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne) by extension 'python'
+[0.366s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne' with type 'cmake' and name 'velodyne'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne_utils) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne_utils) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne_utils) by extensions ['colcon_pkg']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne_utils) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne_utils) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne_utils) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne_utils) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne_utils) by extension 'ros'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne_utils) by extensions ['cmake', 'python']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne_utils) by extension 'cmake'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne_utils) by extension 'python'
+[0.367s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne_utils' with type 'cmake' and name 'velodyne_utils'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art-experimental) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art-experimental) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art-experimental) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art-experimental) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art-experimental) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art-experimental) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art-experimental) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art-experimental) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art-experimental) by extension 'ros'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art-experimental) by extensions ['cmake', 'python']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art-experimental) by extension 'cmake'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/art-experimental) by extension 'python'
+[0.368s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros/art-experimental' with type 'cmake' and name 'art-experimental'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller) by extension 'ros'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller) by extensions ['cmake', 'python']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller) by extension 'cmake'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller) by extension 'python'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller) by extensions ['python_setup_py']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller) by extension 'python_setup_py'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller/my_controller_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller/my_controller_pkg) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller/my_controller_pkg) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller/my_controller_pkg) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller/my_controller_pkg) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller/my_controller_pkg) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller/my_controller_pkg) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller/my_controller_pkg) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller/my_controller_pkg) by extension 'ros'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/controller/my_controller_pkg) ignored
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2) by extension 'ros'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2) by extensions ['cmake', 'python']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2) by extension 'cmake'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2) by extension 'python'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2) by extensions ['python_setup_py']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2) by extension 'python_setup_py'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2/drive_base_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2/drive_base_tutorial) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2/drive_base_tutorial) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2/drive_base_tutorial) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2/drive_base_tutorial) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2/drive_base_tutorial) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2/drive_base_tutorial) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2/drive_base_tutorial) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2/drive_base_tutorial) by extension 'ros'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/pr2/drive_base_tutorial) ignored
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/simpleObjects) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/simpleObjects) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/simpleObjects) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/simpleObjects) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/simpleObjects) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/simpleObjects) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/simpleObjects) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/simpleObjects) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/simpleObjects) by extension 'ros'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/simpleObjects) by extensions ['cmake', 'python']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/simpleObjects) by extension 'cmake'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/simpleObjects) by extension 'python'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/simpleObjects) by extensions ['python_setup_py']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/simpleObjects) by extension 'python_setup_py'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/urdfPractice) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/urdfPractice) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/urdfPractice) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/urdfPractice) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/urdfPractice) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/urdfPractice) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/urdfPractice) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/urdfPractice) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/urdfPractice) by extension 'ros'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/urdfPractice) by extensions ['cmake', 'python']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/urdfPractice) by extension 'cmake'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/urdfPractice) by extension 'python'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/urdfPractice) by extensions ['python_setup_py']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros/urdfPractice) by extension 'python_setup_py'
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.390s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vd/launch_ws/install
+[0.391s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/vd/ros2ws/install
+[0.392s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 314 installed packages in /opt/ros/humble
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'cmake_target' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ackermann_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.423s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vd/launch_ws/build/ackermann_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vd/launch_ws/install/ackermann_teleop', 'merge_install': False, 'path': '/home/vd/launch_ws/src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'art-experimental' build argument 'cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'art-experimental' build argument 'cmake_target' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'art-experimental' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'art-experimental' build argument 'cmake_clean_cache' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'art-experimental' build argument 'cmake_clean_first' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'art-experimental' build argument 'cmake_force_configure' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'art-experimental' build argument 'ament_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'art-experimental' build argument 'catkin_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'art-experimental' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.424s] DEBUG:colcon.colcon_core.verb:Building package 'art-experimental' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vd/launch_ws/build/art-experimental', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vd/launch_ws/install/art-experimental', 'merge_install': False, 'path': '/home/vd/launch_ws/src/ros/art-experimental', 'symlink_install': False, 'test_result_base': None}
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'art_vehicle' build argument 'cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'art_vehicle' build argument 'cmake_target' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'art_vehicle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'art_vehicle' build argument 'cmake_clean_cache' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'art_vehicle' build argument 'cmake_clean_first' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'art_vehicle' build argument 'cmake_force_configure' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'art_vehicle' build argument 'ament_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'art_vehicle' build argument 'catkin_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'art_vehicle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.424s] DEBUG:colcon.colcon_core.verb:Building package 'art_vehicle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vd/launch_ws/build/art_vehicle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vd/launch_ws/install/art_vehicle', 'merge_install': False, 'path': '/home/vd/launch_ws/src/ros/art/utexas-art-ros-pkg-read-only/stacks/art_vehicle', 'symlink_install': False, 'test_result_base': None}
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_target' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.425s] DEBUG:colcon.colcon_core.verb:Building package 'mobile_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vd/launch_ws/build/mobile_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vd/launch_ws/install/mobile_robot', 'merge_install': False, 'path': '/home/vd/launch_ws/mobile_robot', 'symlink_install': False, 'test_result_base': None}
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_street_map' build argument 'cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_street_map' build argument 'cmake_target' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_street_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_street_map' build argument 'cmake_clean_cache' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_street_map' build argument 'cmake_clean_first' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_street_map' build argument 'cmake_force_configure' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_street_map' build argument 'ament_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_street_map' build argument 'catkin_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_street_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.425s] DEBUG:colcon.colcon_core.verb:Building package 'open_street_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vd/launch_ws/build/open_street_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vd/launch_ws/install/open_street_map', 'merge_install': False, 'path': '/home/vd/launch_ws/src/ros/art/utexas-art-ros-pkg-read-only/stacks/open_street_map', 'symlink_install': False, 'test_result_base': None}
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'py_launch_example' build argument 'cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'py_launch_example' build argument 'cmake_target' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'py_launch_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'py_launch_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'py_launch_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'py_launch_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'py_launch_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'py_launch_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'py_launch_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.425s] DEBUG:colcon.colcon_core.verb:Building package 'py_launch_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vd/launch_ws/build/py_launch_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vd/launch_ws/install/py_launch_example', 'merge_install': False, 'path': '/home/vd/launch_ws/py_launch_example', 'symlink_install': False, 'test_result_base': None}
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_target' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_clean_cache' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_clean_first' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'cmake_force_configure' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'ament_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'catkin_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'velodyne' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.426s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vd/launch_ws/build/velodyne', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vd/launch_ws/install/velodyne', 'merge_install': False, 'path': '/home/vd/launch_ws/src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne', 'symlink_install': False, 'test_result_base': None}
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'velodyne_utils' build argument 'cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'velodyne_utils' build argument 'cmake_target' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'velodyne_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'velodyne_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'velodyne_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'velodyne_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'velodyne_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'velodyne_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'velodyne_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.426s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vd/launch_ws/build/velodyne_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vd/launch_ws/install/velodyne_utils', 'merge_install': False, 'path': '/home/vd/launch_ws/src/ros/art/utexas-art-ros-pkg-read-only/stacks/velodyne_utils', 'symlink_install': False, 'test_result_base': None}
+[0.426s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.427s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.427s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vd/launch_ws/src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop'
+[0.428s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.429s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.429s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.431s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vd/launch_ws/src/ros/art-experimental'
+[0.431s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.431s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.434s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vd/launch_ws/src/ros/art/utexas-art-ros-pkg-read-only/stacks/art_vehicle'
+[0.434s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.434s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.437s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vd/launch_ws/mobile_robot' with build type 'ament_cmake'
+[0.437s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vd/launch_ws/mobile_robot'
+[0.437s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.437s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vd/launch_ws/build/ackermann_teleop': /usr/bin/cmake /home/vd/launch_ws/src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop -DCMAKE_INSTALL_PREFIX=/home/vd/launch_ws/install/ackermann_teleop
+[0.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vd/launch_ws/build/art-experimental': /usr/bin/cmake /home/vd/launch_ws/src/ros/art-experimental -DCMAKE_INSTALL_PREFIX=/home/vd/launch_ws/install/art-experimental
+[0.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vd/launch_ws/build/art_vehicle': /usr/bin/cmake /home/vd/launch_ws/src/ros/art/utexas-art-ros-pkg-read-only/stacks/art_vehicle -DCMAKE_INSTALL_PREFIX=/home/vd/launch_ws/install/art_vehicle
+[0.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vd/launch_ws/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vd/launch_ws/install/py_launch_example:/home/vd/ros2ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/vd/launch_ws/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/vd/launch_ws/install/mobile_robot
+[1.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vd/launch_ws/build/ackermann_teleop' returned '1': /usr/bin/cmake /home/vd/launch_ws/src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop -DCMAKE_INSTALL_PREFIX=/home/vd/launch_ws/install/ackermann_teleop
+[1.349s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.350s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.350s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.350s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.355s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.355s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.355s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.370s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.371s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vd/launch_ws/install/local_setup.ps1'
+[1.373s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vd/launch_ws/install/_local_setup_util_ps1.py'
+[1.374s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vd/launch_ws/install/setup.ps1'
+[1.375s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vd/launch_ws/install/local_setup.sh'
+[1.376s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vd/launch_ws/install/_local_setup_util_sh.py'
+[1.377s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vd/launch_ws/install/setup.sh'
+[1.378s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vd/launch_ws/install/local_setup.bash'
+[1.378s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vd/launch_ws/install/setup.bash'
+[1.379s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vd/launch_ws/install/local_setup.zsh'
+[1.380s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vd/launch_ws/install/setup.zsh'

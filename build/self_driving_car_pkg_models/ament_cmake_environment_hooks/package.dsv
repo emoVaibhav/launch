@@ -1,0 +1,4 @@
+source;share/self_driving_car_pkg_models/local_setup.bash
+source;share/self_driving_car_pkg_models/local_setup.dsv
+source;share/self_driving_car_pkg_models/local_setup.sh
+source;share/self_driving_car_pkg_models/local_setup.zsh

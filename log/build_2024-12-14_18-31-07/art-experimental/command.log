@@ -1,0 +1,1 @@
+Invoking command in '/home/vd/launch_ws/build/art-experimental': /usr/bin/cmake /home/vd/launch_ws/src/ros/art-experimental -DCMAKE_INSTALL_PREFIX=/home/vd/launch_ws/install/art-experimental

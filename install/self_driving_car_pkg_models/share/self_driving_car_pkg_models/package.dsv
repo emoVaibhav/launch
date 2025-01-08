@@ -1,0 +1,8 @@
+source;share/self_driving_car_pkg_models/hook/cmake_prefix_path.ps1
+source;share/self_driving_car_pkg_models/hook/cmake_prefix_path.dsv
+source;share/self_driving_car_pkg_models/hook/cmake_prefix_path.sh
+source;share/self_driving_car_pkg_models/local_setup.bash
+source;share/self_driving_car_pkg_models/local_setup.dsv
+source;share/self_driving_car_pkg_models/local_setup.ps1
+source;share/self_driving_car_pkg_models/local_setup.sh
+source;share/self_driving_car_pkg_models/local_setup.zsh

@@ -1,0 +1,47 @@
+[0.019s] Invoking command in '/home/vd/launch_ws/build/ackermann_teleop': /usr/bin/cmake /home/vd/launch_ws/src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop -DCMAKE_INSTALL_PREFIX=/home/vd/launch_ws/install/ackermann_teleop
+[0.032s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.032s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.033s]   contain a literal, direct call to the project() command.  Add a line of
+[0.033s]   code such as
+[0.033s] 
+[0.033s]     project(ProjectName)
+[0.033s] 
+[0.033s]   near the top of the file, but after cmake_minimum_required().
+[0.033s] 
+[0.033s]   CMake is pretending there is a "project(Project)" command on the first
+[0.033s]   line.
+[0.035s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.035s] [0m
+[0.176s] -- The C compiler identification is GNU 11.4.0
+[0.317s] -- The CXX compiler identification is GNU 11.4.0
+[0.340s] -- Detecting C compiler ABI info
+[0.436s] -- Detecting C compiler ABI info - done
+[0.449s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.449s] -- Detecting C compile features
+[0.450s] -- Detecting C compile features - done
+[0.458s] -- Detecting CXX compiler ABI info
+[0.560s] -- Detecting CXX compiler ABI info - done
+[0.581s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.581s] -- Detecting CXX compile features
+[0.581s] -- Detecting CXX compile features - done
+[0.581s] -- Configuring incomplete, errors occurred!
+[0.581s] See also "/home/vd/launch_ws/build/ackermann_teleop/CMakeFiles/CMakeOutput.log".
+[0.582s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.582s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.582s]   CMake.
+[0.582s] 
+[0.582s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.582s]   CMake that the project does not need compatibility with older versions.
+[0.582s] 
+[0.582s] [0m
+[0.582s] [31mCMake Error at CMakeLists.txt:2 (include):
+[0.582s]   include could not find requested file:
+[0.582s] 
+[0.582s]     /core/rosbuild/rosbuild.cmake
+[0.582s] 
+[0.582s] [0m
+[0.582s] [31mCMake Error at CMakeLists.txt:17 (rosbuild_make_distribution):
+[0.582s]   Unknown CMake command "rosbuild_make_distribution".
+[0.583s] 
+[0.583s] [0m
+[0.585s] Invoked command in '/home/vd/launch_ws/build/ackermann_teleop' returned '1': /usr/bin/cmake /home/vd/launch_ws/src/ros/art/utexas-art-ros-pkg-read-only/stacks/ackermann_teleop -DCMAKE_INSTALL_PREFIX=/home/vd/launch_ws/install/ackermann_teleop

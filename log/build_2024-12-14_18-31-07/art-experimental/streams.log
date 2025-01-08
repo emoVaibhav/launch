@@ -1,0 +1,34 @@
+[0.015s] Invoking command in '/home/vd/launch_ws/build/art-experimental': /usr/bin/cmake /home/vd/launch_ws/src/ros/art-experimental -DCMAKE_INSTALL_PREFIX=/home/vd/launch_ws/install/art-experimental
+[0.029s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.029s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.029s]   contain a literal, direct call to the project() command.  Add a line of
+[0.029s]   code such as
+[0.029s] 
+[0.030s]     project(ProjectName)
+[0.030s] 
+[0.030s]   near the top of the file, but after cmake_minimum_required().
+[0.030s] 
+[0.030s]   CMake is pretending there is a "project(Project)" command on the first
+[0.030s]   line.
+[0.030s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.030s] [0m
+[0.033s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.033s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.033s]   CMake.
+[0.033s] 
+[0.033s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.033s]   CMake that the project does not need compatibility with older versions.
+[0.033s] 
+[0.033s] [0m
+[0.033s] [31mCMake Error at CMakeLists.txt:2 (include):
+[0.033s]   include could not find requested file:
+[0.034s] 
+[0.034s]     /core/rosbuild/rosbuild.cmake
+[0.034s] 
+[0.034s] [0m
+[0.034s] [31mCMake Error at CMakeLists.txt:17 (rosbuild_make_distribution):
+[0.035s]   Unknown CMake command "rosbuild_make_distribution".
+[0.035s] 
+[0.035s] [0m
+[0.035s] -- Configuring incomplete, errors occurred!
+[0.035s] See also "/home/vd/launch_ws/build/art-experimental/CMakeFiles/CMakeOutput.log".

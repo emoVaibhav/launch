@@ -1,0 +1,5 @@
+[0.008s] Invoking command in '/home/vd/launch_ws/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vd/ros2ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/vd/launch_ws/build/mobile_robot -- -j4 -l4
+[0.021s] [0mCMake Error: The source directory "/home/vd/launch_ws/mobile_robot" does not exist.
+[0.022s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.022s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.024s] Invoked command in '/home/vd/launch_ws/build/mobile_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vd/ros2ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/vd/launch_ws/build/mobile_robot -- -j4 -l4

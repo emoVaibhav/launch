@@ -1,0 +1,46 @@
+[0.019s] Invoking command in '/home/vd/launch_ws/build/art-experimental': /usr/bin/cmake /home/vd/launch_ws/src/ros/art-experimental -DCMAKE_INSTALL_PREFIX=/home/vd/launch_ws/install/art-experimental
+[0.031s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.031s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.031s]   contain a literal, direct call to the project() command.  Add a line of
+[0.031s]   code such as
+[0.031s] 
+[0.031s]     project(ProjectName)
+[0.031s] 
+[0.032s]   near the top of the file, but after cmake_minimum_required().
+[0.032s] 
+[0.032s]   CMake is pretending there is a "project(Project)" command on the first
+[0.032s]   line.
+[0.032s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.032s] [0m
+[0.172s] -- The C compiler identification is GNU 11.4.0
+[0.304s] -- The CXX compiler identification is GNU 11.4.0
+[0.330s] -- Detecting C compiler ABI info
+[0.437s] -- Detecting C compiler ABI info - done
+[0.451s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.451s] -- Detecting C compile features
+[0.451s] -- Detecting C compile features - done
+[0.455s] -- Detecting CXX compiler ABI info
+[0.587s] -- Detecting CXX compiler ABI info - done
+[0.604s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.604s] -- Detecting CXX compile features
+[0.604s] -- Detecting CXX compile features - done
+[0.605s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.605s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.605s]   CMake.
+[0.605s] 
+[0.605s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.605s]   CMake that the project does not need compatibility with older versions.
+[0.605s] 
+[0.605s] [0m
+[0.605s] [31mCMake Error at CMakeLists.txt:2 (include):
+[0.605s]   include could not find requested file:
+[0.605s] 
+[0.605s]     /core/rosbuild/rosbuild.cmake
+[0.605s] 
+[0.605s] [0m
+[0.605s] [31mCMake Error at CMakeLists.txt:17 (rosbuild_make_distribution):
+[0.606s]   Unknown CMake command "rosbuild_make_distribution".
+[0.606s] 
+[0.606s] [0m
+[0.606s] -- Configuring incomplete, errors occurred!
+[0.606s] See also "/home/vd/launch_ws/build/art-experimental/CMakeFiles/CMakeOutput.log".
